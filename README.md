@@ -9,6 +9,7 @@ https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
 
 # This Project Uses:-
 Language --> Python=3.8 
+IDLE --> Jupyter Notebook
 Operating System --> Windows 11
 Camera for live detection
 
