@@ -7,10 +7,10 @@ We can use this model in identification of vehicles and maintaining their data b
 # Dataset for Training the model -
 https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
 
-#How this model works
+# How this model works -
 
 Firstly live video is captured
-Then some filters are applied for better detection and noisereduction in images
+Then some filters are applied for better detection and noise reduction
 
 Like - at first it is converted into greyscale and then into outline filter for better recognition of shapes which then filtered as rectangle shapes
 As numberplates are also in rectangular shapes, so identification becomes eassier.
