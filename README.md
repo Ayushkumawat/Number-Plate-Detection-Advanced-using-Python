@@ -7,6 +7,21 @@ We can use this model in identification of vehicles and maintaining their data b
 # Dataset for Training the model -
 https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
 
+#How this model works
+
+Firstly live video is captured
+Then some filters are applied for better detection and noisereduction in images
+
+Like - at first it is converted into greyscale and then into outline filter for better recognition of shapes which then filtered as rectangle shapes
+As numberplates are also in rectangular shapes, so identification becomes eassier.
+
+Model is trained using the dataset which contains images of some random car showing numberplate and each image carry an seperate file which contains coordinates of numberplate in the image.
+
+The live video captured is then send to the model to predict the location of numberplate
+Then EasyOCR is used to get the characters from the numberplate.
+
+Every numberplate detected is stored in a file and the data of vehicle gets updated in the csv file.
+
 # This Project Uses:-
 Language --> Python=3.8 
 IDLE --> Jupyter Notebook
